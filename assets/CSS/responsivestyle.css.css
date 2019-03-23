@@ -1,0 +1,262 @@
+body  {
+    background-color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    background: white;
+    box-sizing: border-box;
+   
+
+}
+
+.header {
+            background-color:white;
+            width: 100%
+            float: left;
+            position:sticky;
+            top:0;
+
+            
+            
+}
+
+h1 {
+    font-size: 30px;
+    text-align: left;
+    background-color:#4aaaa5;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    position: fixed;
+    justify-content: center
+   
+    
+  
+
+}
+
+h2 {
+    font-size: 25px;
+    text-align: left;
+    color:#4aaaa5;
+    margin: 0px;
+    clear: left
+    padding: 5;
+    margin-top: 20px;
+
+
+}
+
+
+hr {
+    width: 100%;
+    height: 1px;
+    background: #fff
+
+
+    
+    
+}
+
+
+img {
+    /* display: block; */
+    margin-left: left;
+    margin-right: auto;
+    float: left;
+
+
+}
+
+p {
+    
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    
+    
+    
+}
+
+.container {
+    
+    margin: 0 auto;
+    background-image: url("../images/dynamic-style.png");
+    float: center;
+
+
+}
+/* 
+#bio-image {
+
+    float: left;
+
+   
+} */
+#student-bio {
+    width: 100%
+}
+
+
+form {
+    
+    color: #777777;
+    font-size: 20px;
+    margin: 0 auto;
+
+
+}
+a {     
+    font-size: 20px;
+    color: #777777;
+    text-align: inherit;
+    margin: 0 auto;
+    font-style: bold;
+    float: right;
+    
+
+
+
+
+    
+}
+
+input[type=text], select, textarea {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    resize: vertical;
+    border: 1px solid;
+    float: center;
+    margin: 0 auto;
+    
+}
+
+input[type=submit], select {
+    background-color:#4aaaa5;
+    color: white;
+
+}
+
+footer {
+  
+    height: 30px;
+    border-top: solid;
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5;
+
+}
+
+.box-red {         
+    background: red;
+    height: 100px;
+    width: 100px; 
+    position: relative;
+    top: 100px;
+    left: 100px; 
+    justify-content: space-evenly;
+
+  }
+
+
+  
+  .box-green {
+    background: green;
+    height: 100px;
+    width: 100px; 
+    position: static; 
+    justify-content: space-evenly;
+  
+  }
+
+  .box-yellow {         
+    background: yellow;
+    height: 100px;
+    width: 100px; 
+    position: relative;
+    top: 100px;
+    left: 100px; 
+    justify-content: space-evenly;
+    
+  }
+  .box-blue {
+    background: blue;
+    height: 100px;
+    width: 100px; 
+    position: static; 
+    justify-content: space-evenly;
+   
+  }
+  .box-purple {
+    background: purple;
+    height: 100px;
+    width: 100px; 
+    position: static;
+    top: 100px;
+    left: 100px; 
+    justify-content: space-evenly;
+    
+  
+  }
+    /*on screens that are 768px wide or less, set the background color to black*/
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: #0e0e0e;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+    
+    }
+    .wrapper{
+      width: 600px;
+    }
+    .header {
+      margin: 0 auto;
+    }
+
+  }
+
+
+   /*on screens that are 980px wide or less, set the background color to black*/
+    @media screen and (max-width: 980px) {
+        body {
+          background-color: #0e0e0e;
+          position: relative;
+          float: none;
+          display: block;
+          text-align: center;
+
+
+        }
+        .wrapper{
+          width: 600px;
+        }
+        /*on screens that are 640px wide or less, set the background color to light grey*/
+
+      }
+
+
+        @media screen and (max-width: 640px) {
+            body {
+              background-color: lightgray;
+              position: sticky;
+              /* vertical-align: 0%; */
+              float: none;
+              display: block;
+              text-align: center;
+              
+    
+            }
+            .wrapper{
+              width: 600px;
+            }
+            img {
+              float: none;
+              display: block;
+              margin: 0 auto;
+
+            }
+        
+          }
+
